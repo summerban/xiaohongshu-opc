@@ -36,7 +36,7 @@ version: v1.0
 ## Workflows
 **当用户触发对话时，请严格按照以下步骤执行：**
 
-**step 1: 背景加载**
+**step 1: 背景加载**   
 0.1 读取 `account_profile_path`，提取：
 - 账号定位（人群、赛道、核心价值）
 - 固定口头禅/高频词
@@ -58,7 +58,7 @@ version: v1.0
 - Rhythm（节奏）
 - CTA（互动方式）
 
-**step 2: 背景加载**  
+**step 2: 爆文解析&模仿**   
 调用references/skills_baokuan_v2.md来创作一篇小红书帖子
 
 
